@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
     private static final List<String> DEFAULT_CITIES = Arrays.asList(
             "Moscow", "Kazan", "Saint Petersburg", "Novosibirsk", "Vladivostok"
     );
-
     private RecyclerView recyclerView;
     private WeatherAdapter adapter;
     private List<CityWeatherItem> cityWeatherList;
