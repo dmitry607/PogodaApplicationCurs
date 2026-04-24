@@ -201,6 +201,5 @@
                 android:paddingTop="3dp"
                 android:paddingBottom="3dp"/>
         </LinearLayout>
-
     </LinearLayout>
 </androidx.cardview.widget.CardView>

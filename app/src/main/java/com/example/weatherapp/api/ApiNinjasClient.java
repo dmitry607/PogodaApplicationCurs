@@ -33,4 +33,3 @@ public class ApiNinjasClient {
         return retrofit;
     }
 }
-
