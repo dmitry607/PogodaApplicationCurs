@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="add_city">Добавить город</string>
+    <string name="loading">Загрузка…</string>
+    <string name="error_city_not_found">Город не найден</string>
+    <string name="error_network">Ошибка сети</string>
+</resources>

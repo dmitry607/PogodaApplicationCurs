@@ -1,0 +1,48 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.weatherapp'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.weatherapp"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.constraintlayout
+
+    implementation libs.recyclerview
+    implementation libs.cardview
+
+    implementation libs.retrofit
+    implementation libs.converter.gson
+
+    implementation libs.okhttp
+    implementation libs.logging.interceptor
+}
